@@ -1,0 +1,127 @@
+.projects {
+  background-color: var(--background-color);
+  padding: 2rem;
+}
+
+.projects h3 {
+  margin-bottom: 2rem;
+}
+
+.projects h5 {
+  color: var(--headers-color);
+}
+.project__wrapper {
+  padding: 2rem;
+  margin: 4rem 0;
+  border-radius: 1.7rem;
+  background-color: #fff;
+}
+
+.project__image {
+  background-color: hsla(0, 0%, 46%, 0.2);
+  border-radius: 1.7rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  overflow: hidden;
+  width: auto;
+  height: 35rem;
+  overflow: hidden;
+}
+
+.project__image img {
+  width: 100%;
+  height: auto;
+  transition: transform 5s ease-out;
+}
+
+.project__image img:hover {
+  overflow-y: scroll;
+}
+.project__image .tour:hover {
+  transform: translatey(-50%);
+}
+
+.project__image .sunrise:hover {
+  transform: translatey(-50%);
+}
+.project__image .social:hover {
+  transform: translatey(-50%);
+}
+
+.project__details h5 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.project__details .backend,
+.project__details .frontend {
+  margin: 0.5rem;
+}
+
+.tech__group {
+  display: flex;
+  font-size: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech__group h5 {
+  border-right: 1px solid rgb(230, 222, 222);
+  padding-right: 30px;
+}
+
+.tech__group ul {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.tech__group ul li {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 0.3rem;
+  border-radius: 15px;
+  color: var(--heading-color);
+}
+
+.project__links {
+  text-align: center;
+}
+
+.project__links a {
+  display: inline-block;
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+.project__links i {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .project__wrapper {
+    padding: 1.5rem;
+    margin: 2rem;
+  }
+  .project__image {
+    height: 20rem;
+  }
+  .tech__group .backend,
+  .tech__group .frontend {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .projects {
+    padding: 1rem;
+  }
+
+  .project__wrapper {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
