@@ -13,10 +13,10 @@ const Footer = () => {
             {' '}
             <h4>Copyright © {year}. All rights reserved</h4>
             <div className='social__media'>
-              <a href='https://www.linkedin.com/in/adeeb-ogaili'>
+              <a href='https://www.linkedin.com/in/joseph-d-smith-692522264/'>
                 <i className='ri-linkedin-box-fill'></i>
               </a>
-              <a href='https://www.github.com/Adeebogaili'>
+              <a href='https://github.com/JosephDSmith'>
                 <i className='ri-github-fill'></i>
               </a>
             </div>

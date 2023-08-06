@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import adeebimg from '../../assets/images/adeeb.jpg';
+import josephimg from '../../assets/images/js pic.jpeg';
 import skills from '../../assets/data/images';
 import './home.css';
 
@@ -15,19 +15,19 @@ const Home = () => {
               Web Developer
             </h1>
             <p>
-              Hi, I'm Adeeb Ogaili, A passionate Full Stack Web Developer <br />{' '}
-              based in Austin, TX
+              Hi, I'm Joseph Smith, A passionate Full Stack Web Developer <br />{' '}
+              based in DC Metro area.
             </p>
             <div className='social__media'>
               <a
-                href='https://www.linkedin.com/in/adeeb-ogaili'
+                href='https://www.linkedin.com/in/joseph-d-smith-692522264/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
                 <i className='ri-linkedin-box-fill'></i>
               </a>
               <a
-                href='https://www.github.com/Adeebogaili'
+                href='https://github.com/JosephDSmith'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -37,7 +37,7 @@ const Home = () => {
           </Col>
           <Col lg='6' md='5'>
             <div className='image__container'>
-              <img src={adeebimg} alt='Adeeb' />
+              <img src={josephimg} alt='joseph' />
             </div>
           </Col>
         </Row>
@@ -49,7 +49,10 @@ const Home = () => {
             <ul className='skills__logo-ul'>
               {skills?.map((item, index) => (
                 <li key={index}>
-                  <img src={item.image} alt={item.alt} />
+                  <a href={item.url} target="_blank">
+                    <img src={item.image} alt={item.alt} />
+                  </a>
+                  
                 </li>
               ))}
             </ul>

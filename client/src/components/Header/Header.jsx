@@ -56,7 +56,7 @@ const Header = () => {
         <Row>
           <div className='nav__wrapper d-flex align-items-center justify-content-between'>
             {/* Logo start */}
-            <div className='logo'>Adeeb.dev</div>
+            <div className='logo'>Joseph.dev</div>
             {/* Logo end */}
             {/* menu start */}
             <div className='navigation' ref={menuRef} onClick={toggleMenue}>

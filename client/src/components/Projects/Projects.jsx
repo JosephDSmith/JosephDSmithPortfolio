@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import './projects.css';
-import tourImg from '../../assets/images/tour.png';
-import sunriseImg from '../../assets/images/sunrise.png';
-import socialImg from '../../assets/images/social.png';
+import bonsai from '../../assets/images/bonsai.png';
+import butterfly from '../../assets/images/butterfly.png';
+
 
 const Projects = () => {
   return (
@@ -22,7 +22,7 @@ const Projects = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <img className='tour' src={tourImg} alt='Tour website' />
+                <img className='tour' src={bonsai} alt='Tour website' />
               </a>
             </div>
           </Col>
@@ -68,7 +68,7 @@ const Projects = () => {
               </Col>
               <Col className='project__links'>
                 <a
-                  href='https://github.com/Adeebogaili/Tour-Tastic'
+                  href='https://github.com/JosephDSmith/phase-2-project'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -76,11 +76,18 @@ const Projects = () => {
                   Code <i className='ri-github-fill'></i>
                 </a>
                 <a
-                  href='https://tour-tastic.onrender.com/home'
+                  href='https://youtu.be/d6vAozT5yQ4'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
                   Live Demo <i className='ri-live-fill'></i>
+                </a>
+                <a
+                  href='https://my-bonsai-garden.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Website <i class="ri-pages-fill"></i>
                 </a>
               </Col>
             </Row>
@@ -122,7 +129,7 @@ const Projects = () => {
               </Col>
               <Col className='project__links'>
                 <a
-                  href='https://github.com/Adeebogaili/Level-5-Group-Fullstack-Project'
+                  href='https://github.com/JosephDSmith/phase-4-project'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -130,11 +137,18 @@ const Projects = () => {
                   Code <i className='ri-github-fill'></i>
                 </a>
                 <a
-                  href='https://sunrise-food-market.onrender.com/'
+                  href='https://youtu.be/ylOOzc4l_ac'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
                   Live Demo <i className='ri-live-fill'></i>
+                </a>
+                <a
+                  href='https://butterfly-garden-app.onrender.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Website <i class="ri-pages-fill"></i>
                 </a>
               </Col>
             </Row>
@@ -148,83 +162,11 @@ const Projects = () => {
               >
                 <img
                   className='sunrise'
-                  src={sunriseImg}
+                  src={butterfly}
                   alt='sunrise website'
                 />
               </a>
             </div>
-          </Col>
-        </Row>
-        <Row className='project__wrapper'>
-          <Col lg='6' md='12'>
-            <div className='project__image'>
-              <a
-                href='https://rtv-81uw.onrender.com'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <img
-                  className='social'
-                  src={socialImg}
-                  alt='VIP politics website'
-                />
-              </a>
-            </div>
-          </Col>
-          <Col className='project__details' lg='6' md='12'>
-            <h5>VIP Politics</h5>
-            <p>
-              Join us to discuss the issues that matter to you! With VIP
-              Politics, you can create an account, share your thoughts on our
-              public page, and interact with like-minded individuals. Leave
-              comments, like and dislike posts, and spark meaningful discussions
-              on local and global issues.
-            </p>
-            <Row className='tech__group'>
-              <Col className='backend d-flex align-items-center'>
-                <h5>Backend</h5>
-                <ul>
-                  <li>Bcrypt</li>
-                  <li>Dotenv</li>
-                  <li>Express</li>
-                  <li>Express JWT</li>
-                  <li>Json Web Token</li>
-                  <li>MongoDB</li>
-                  <li>Mongoose</li>
-                  <li>Morgan</li>
-                </ul>
-              </Col>
-              <Col className=' frontend d-flex align-items-center'>
-                <h5>Frontend</h5>
-                <ul>
-                  <li>Axios</li>
-                  <li>Bootstrap</li>
-                  <li>Moment</li>
-                  <li>React</li>
-                  <li>React Bootstrap</li>
-                  <li>React Dom</li>
-                  <li>React Router Dom</li>
-                  <li>React Scripts</li>
-                </ul>
-              </Col>
-              <Col className='project__links'>
-                <a
-                  href='https://github.com/Adeebogaili/RTV'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  {' '}
-                  Code <i className='ri-github-fill'></i>
-                </a>
-                <a
-                  href='https://rtv-81uw.onrender.com'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Live Demo <i className='ri-live-fill'></i>
-                </a>
-              </Col>
-            </Row>
           </Col>
         </Row>
       </Container>

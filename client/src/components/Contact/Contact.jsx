@@ -27,22 +27,22 @@ const Contact = () => {
                 <div className='location__text'>
                   <h6>Location</h6>
                   <a
-                    href='https://goo.gl/maps/cAdR9N19rUeJvv8N6'
+                    href='https://goo.gl/maps/9QMu4tkNRc5e1TBF9'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    Austin, TX
+                    DC Metro area
                   </a>
                 </div>
               </div>
               <div className='email'>
-                <a href='mailto:adeebnasser@gmail.com'>
+                <a href='mailto:joesmith40@gmail.com'>
                   <img src={emailImg} alt='email' />
                 </a>
                 <div className='email__text'>
                   <h6>E-mail</h6>
                   <a href='mailto:adeebnasser@gmail.com'>
-                    adeebnasser@gmail.com
+                    joesmith40@gmail.com
                   </a>
                 </div>
               </div>
